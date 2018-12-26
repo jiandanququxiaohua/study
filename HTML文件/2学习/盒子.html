@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>盒子浮动</title>
+</head>
+<style type="text/css">
+	body{
+		margin: 20px;
+		font-family: arial;font-size: 14px;
+	}
+	#father{
+		background-color: #33bb00;
+		border: 5px solid #111111;padding: 8px;
+	}
+	#father div{
+		padding: 15px;margin: 15px;border: 2px dashed #111111;background-color: #90baff;
+	}
+	#father p{
+		border: 3px dashed #111111; background-color: #90baff;
+	}
+	.son2{float: left;}
+	.son1{ float: left; }
+	.son3{ float: right; }
+	.clear{clear: both;}
+	.lefttext{ float: left;height: 100px;width: 100px;border: 1px solid #5ae047 }
+	.foottext{ height: 100px;width: 100px;border: 1px solid #f3e13a }
+	.box{ width: 250px;height: 250px;position: absolute;top: 500px;left: 550px;z-index: 1; }
+</style>
+<body>
+<div id="father">	
+	<div class="son1"> box1 </div>
+	<div class="son2"> box2 </div>
+    <div class="son3"> box3 </div>
+    
+    <div class="lefttext">bbb</div>
+    <div class="lefttext">ccc</div>
+    <div class="clear">aaaa</div>
+    <div class="foottext">bbb</div>
+    <div class="box">fff</div>
+<p>这里是浮动框外围文字，这里是浮动框外围文字，这里是浮动框外围文字，这里是浮动框外围文字，这里是浮动框外围文字，这里是浮动框外围文字，这里是浮动框外围文字，这里是浮动框外围文字，这里是浮动框外围文字，这里是浮动框外围文字，这里是浮动框外围文字，这里是浮动框外围文字，这里是浮动框外围文字，这里是浮动框外围文字，这里是浮动框外围文字，这里是浮动框外围文字，这里是浮动框外围文字，这里是浮动框外围文字，这里是浮动框外围文字</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>京东登陆框页</title>
+	<style type="text/css">
+      body{
+          background-color: #f2f2f2;
+      } 
+      header{
+          height: 100px;
+      } 
+      section{
+          height: 480px;
+          width: 1080px;
+          margin: 20px auto;
+         
+      }  
+      #main{
+          height: 450px;
+          width: 1080px;
+          background:url(../image/mao1.jpeg) no-repeat;
+          margin:20px 20px 10px 10px;
+          background-color:#fff;
+          border:1px solid #333;
+          border-radius:5px;*/
+      }
+      #denglu{
+          width: 400px;
+          height: 400px;
+          margin-left: 750px;
+      }
+      #users{
+          width: 300px;
+          height: 40px;
+      }
+      #users input{
+          width:300px;
+          height:40px;
+          outline:1px;
+          background:url(../image/user.png) no-repeat right;
+      }
+      #mm{
+          width: 300px;
+          height: 40px;
+      }
+      #mm input{
+          width:300px;
+          height:40px;
+          outline:1px;
+          background:url(../image/pwd.png) no-repeat right;
+      }
+      #a1{
+          border-right:1px solid #ccc;
+      }
+     </style>
+</head>
+<body>
+<header>
+	<img src="../image/jd_logo.png" id="a1">
+	<img src="../image/welcome.png">
+</header>
+<section>
+     <div id="main">
+     <div id="denglu">
+     <form>
+     	<p>邮箱/用户名/手机号：</p>
+     	<div id="users"><input type="text" name="users"></div>
+     	<p>密码：</p>
+     	<div id="mm"><input type="password" name="mima"></div>
+     	<p ><input type="checkbox" name="dl"><label>自动登陆</label>
+     	   <input type="checkbox" name="dl"><label>安全登陆</label>
+     	   <a href="#"><label>忘记密码</label></a>
+     	</p>
+     	<div><input type="image" src="../image/btn_login.JPG"></div>
+     	<p>使用合作网站账号登录京东</p>
+     	<p><a href="#">网银钱包</a>
+     	   <a href="#">qq</a>
+     	   <a href="#">其他</a>
+     	</p>
+     	<div><input type="image" name="zhuce" src="../image/btn_register.JPG">
+          </div>
+     </form>
+   </div>
+    </div>
+</section>
+</body>
+</html>

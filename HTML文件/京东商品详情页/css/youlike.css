@@ -1,0 +1,88 @@
+
+*
+{
+	margin:0;
+	padding:0;
+	font-size:12px;
+	list-style:none;
+}
+#like a
+{
+	text-decoration:none;
+}
+#like a:hover
+{
+	color:#ff0700;
+}
+#like
+{
+	height:276px;
+	padding:0 9px;
+	border:1px solid #ddd;
+	border-top:2px solid #999;
+	/*margin-bottom:10px*/
+}
+#like p
+{
+	height:30px;
+	line-height:30px;
+	font-weight:normal;
+	font-size:13px;
+}
+#like .hyip
+{
+	background:url(../images/update.png) no-repeat right center;
+	color:#005ea7;
+	float:right;
+	padding-right:16px;
+	height:20px;
+	line-height:20px;
+}
+
+#like ul
+{
+	float:left;
+	padding-top:15px;
+}
+#like li
+{
+	float:left;
+	width:150px;
+	height:216px;
+	padding:0 18px 15px 20px;
+	margin:0 8px 0 0;
+}
+#like li img
+{
+	margin:5px 0;
+}
+#like dd a
+{
+	height:36px;
+	line-height:20px;
+	color:#666;
+}
+#like dd
+{
+	margin-left:2px;
+	width:160px;
+	text-align:center;	
+}
+#like dl
+{
+	width:160px;
+}
+#like div a
+{
+	color:#005ea7;
+	line-height:20px;	
+}
+#like div 
+{
+	text-align:center;
+	color:#e3393c;
+	line-height:20px;
+}
+
+
+

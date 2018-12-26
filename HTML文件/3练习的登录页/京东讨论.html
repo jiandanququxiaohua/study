@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>京东讨论页</title>
+	<style type="text/css">
+		body{
+			font: 20px "黑体"；
+			color:#666;
+
+		}
+		#taolun{
+            width: 900px;
+            height: 360px;
+            background: url(../Images3/tab.png) repeat-x 0 -41px;
+		}
+		ul.tabs{
+            height:30px;
+		    margin:0px;
+		    padding:0px;
+		    list-style:none;
+		}
+		ul.tabs li{
+           float:left;
+		  font:14px "微软雅黑";
+		  width:96px;
+		  height:32px;
+		  line-height:34px;
+		  text-align:center;
+		}
+		.tabs li a{
+			color:#005aa0;
+		text-decoration:none;
+		}
+		.tabs li a:hover{
+			color:#e4393c;
+		}
+		.tabs .current{
+       	background:#fff;
+		height:34px;
+		border-top:2px solid #e4393c;
+		border-left:2px solid #ddd;
+		border-right:2px solid #ddd;
+		margin-top:-4px;
+		margin-left:-1px;
+       }
+       .tl_th
+       {
+       	height:18px;
+		border-color:#dedfde;
+		font-weight:bold;
+		color:#666;
+       }
+
+		#taolun_list td{
+			border-bottom:1px dotted #dedede;
+		    padding:6px 0;
+		    text-align:center;/*往td中加入align="left"不行，html属性优先级没有css高*/
+		    color:#9c9a9c;
+		}
+		#taolun_list{
+            width:150%;
+		   border-bottom:1px solid #dedfde;
+		   text-align: left;
+		   margin-left: 1px;
+		}
+		#taolun_list.tl_th{
+			height:18px;
+		border-bottom:1px solid #dedfde;
+		font-weight:bold;
+		color:#666;
+		}
+       #taolun_list .left{
+       	text-align: left;
+       }
+       #taolun_list a{
+       	color:#005aa0;
+		padding-left:6px;
+		text-decoration:none;
+       }
+       #taolun_list a:hover{
+       	text-decoration:underline;
+       }
+       .shai,.lun{
+       	padding:2px 10px;/*撑开行内元素的宽高*/
+		background:url(../images3/iconlist_1.png) no-repeat -110px -220px;
+	}
+	.lun{
+        background-position:-152px -220px;
+	}
+     
+     #tableweizhi{
+     	margin-left: 10px;
+     }  
+	
+	</style>
+</head>
+<body>
+	<div id="taolun">
+	<ul class="tabs">
+		<li><a href="#">网友讨论</a></li>
+		<li class="current"><a href="#">晒单帖</a></li>
+		<li><a href="#">问答帖</a></li>
+		<li><a href="#">圈子帖</a></li>
+		<li><a href="#">讨论帖</a></li>
+	</ul>
+	<div id="tableweizhi">
+<table id="tailun_list">
+	<tr>
+		<td class="tl_th left" width="200px">主题</td>
+	    <td class="tl_th" width="200px">回复/浏览</td>
+	    <td  class="tl_th" width="120px">作者</td>
+	    <td  class="tl_th"width="300px">时间</td>
+	</tr>
+	<tr>
+		<td class="left"><i class="shai"></i><a href="#">好大一瓶，很喜欢，不错</a></td>
+	    <td>0/4</td>
+	    <td><a href="#">我的微博</a></td>
+	    <td>2018-1-13</td>
+	</tr>
+	<tr>
+		<td class="left"><i class="lun"></i><a href="#">洗衣液超大一瓶，很给力。</a></td>
+	    <td>0/4</td>
+	    <td><a href="#">我的微博</a></td>
+	    <td>2018-1-13</td>
+	</tr>
+	<tr>
+	<td class="left"><i class="lun"></i><a href="#">洗衣液超大一瓶，很给力。</a></td>
+	    <td>0/4</td>
+	    <td><a href="#">我的微博</a></td>
+	    <td>2018-1-13</td>
+	</tr>
+	<tr>
+		<td class="left"><i class="shai"></i><a href="#">好大一瓶，很喜欢，不错</a></td>
+	    <td>0/4</td>
+	    <td><a href="#">我的微博</a></td>
+	    <td>2018-1-13</td>
+	</tr>
+</table>
+</div>
+</div>
+</body>
+</html>
