@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>衣橱管理登陆页</title>
+	<meta charset="utf-8">
+	<meta name="auther" content="yichu">
+
+</head>
+<style type="text/css">
+	body{
+		font-family: arial;
+		font-size: 14px;
+		width: 1210px;
+		margin: auto;
+		background: url(image/login_bg.svg) no-repeat;
+		background-color: #f5f7f9;
+		
+	}
+	#denglu{
+		width:300px;
+		height: 200px;
+		margin: 150px auto;
+		border: 2px solid #666; 
+		border-radius: 20px;
+		padding:60px;
+
+	}
+    .main{
+    	width: 260px;
+    	float: left;
+    	padding: 10px;
+    	text-align: center;
+
+    }
+    #touxiang{
+    	width: 60px;
+    	height: 60px;
+    	text-align: left;
+    }
+    div span{
+    	font-size: 30px;
+    }
+    div input{
+        height: 26px;
+        width: 260px;
+        border-radius: 5px;
+        border: 2px solid #eee;
+    }
+    .dlu{
+    	color: #fff;
+    	background-color:#54d6fc;
+    	border: 0; 
+    }
+</style>
+<body>
+  <div id="denglu">
+    <div class="main">
+    	<img  id="touxiang"src="image/hs.png"><span>衣橱管理</span>
+    	<p><input type="text" name="users" placeholder="请在这里输入用户名"></p>
+    	<p><input type="password" name="mima" placeholder="请在这里输入用密码"></p>
+    	<p><input type="submit" name="button" value="登陆" class="dlu"></p>
+    </div>   	
+  </div>
+</body>
+</html>
