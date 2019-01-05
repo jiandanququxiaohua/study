@@ -1,0 +1,6 @@
+1 git pull origin master //拉下来对比
+2 git add * //添加所有文件，注意编辑的地址，文件所在的目录
+3 git commit -m"随意写"  //标记什么发生了改变
+4 git push orgin master //上传更新
+、、、、、、
+5 git clone /path/to/repository(克隆远端文件到本地，此为远端地址)
