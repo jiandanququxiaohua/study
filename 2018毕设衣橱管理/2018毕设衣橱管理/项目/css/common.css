@@ -1,0 +1,30 @@
+/*项目通用样式*/
+
+.clear-float::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.left {
+  float: left;
+}
+.right {
+	float: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.table-actions > a {
+  padding: 0 8px;
+  cursor: pointer;
+}
