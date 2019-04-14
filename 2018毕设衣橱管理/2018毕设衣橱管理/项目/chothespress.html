@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +11,8 @@
   <link rel="stylesheet" href="./css/base.css">
   <link rel="stylesheet" href="./css/common.css">
   <link rel="stylesheet" href="./css/layout.css">
+  <link rel="stylesheet" href="./css/chothespress.css">
+  
   <!-- 当前页面样式 -->
 
   <link rel="stylesheet" href="./css/chothespress.css">
@@ -19,6 +22,7 @@
   <script src="./static/js/bootstrap/js/bootstrap.min.js"></script>
 </head>
 <!-- 模板html: 包含一些基本样式及项目所需js -->
+
 <body>
   <div id="app">
     <div class="wrapper">
@@ -44,7 +48,7 @@
                 <li>
                   <dl>
                     <dt>
-                      <img src="./image/images-yi/banqun.png" alt="半裙"/>
+                      <img src="./image/images-yi/banqun.png" alt="半裙" />
                     </dt>
                     <dd>半裙</dd>
                   </dl>
@@ -52,7 +56,7 @@
                 <li>
                   <dl>
                     <dt>
-                      <img src="./image/images-yi/bao.png" alt="包包"/>
+                      <img src="./image/images-yi/bao.png" alt="包包" />
                     </dt>
                     <dd>包包</dd>
                   </dl>
@@ -60,7 +64,7 @@
                 <li>
                   <dl>
                     <dt>
-                      <img src="./image/images-yi/kaishan.png" alt="开衫"/>
+                      <img src="./image/images-yi/kaishan.png" alt="开衫" />
                     </dt>
                     <dd>开衫</dd>
                   </dl>
@@ -68,7 +72,7 @@
                 <li>
                   <dl>
                     <dt>
-                      <img src="./image/images-yi/kuzi.png" alt="裤子"/>
+                      <img src="./image/images-yi/kuzi.png" alt="裤子" />
                     </dt>
                     <dd>裤子</dd>
                   </dl>
@@ -76,7 +80,7 @@
                 <li>
                   <dl>
                     <dt>
-                      <img src="./image/images-yi/lianyi.png" alt="连衣裙"/>
+                      <img src="./image/images-yi/lianyi.png" alt="连衣裙" />
                     </dt>
                     <dd>连衣裙</dd>
                   </dl>
@@ -84,7 +88,7 @@
                 <li>
                   <dl>
                     <dt>
-                      <img src="./image/images-yi/neiyi.png" alt="内衣"/>
+                      <img src="./image/images-yi/neiyi.png" alt="内衣" />
                     </dt>
                     <dd>内衣</dd>
                   </dl>
@@ -92,7 +96,7 @@
                 <li>
                   <dl>
                     <dt>
-                      <img src="./image/images-yi/shangzhuang.png" alt="上装"/>
+                      <img src="./image/images-yi/shangzhuang.png" alt="上装" />
                     </dt>
                     <dd>上装</dd>
                   </dl>
@@ -100,7 +104,7 @@
                 <li>
                   <dl>
                     <dt>
-                      <img src="./image/images-yi/waitao.png" alt="外套"/>
+                      <img src="./image/images-yi/waitao.png" alt="外套" />
                     </dt>
                     <dd>外套</dd>
                   </dl>
@@ -108,7 +112,7 @@
                 <li>
                   <dl>
                     <dt>
-                      <img src="./image/images-yi/weifen.png" alt="未分类"/>
+                      <img src="./image/images-yi/weifen.png" alt="未分类" />
                     </dt>
                     <dd>未分类</dd>
                   </dl>
@@ -116,7 +120,7 @@
                 <li>
                   <dl>
                     <dt>
-                      <img src="./image/images-yi/xiezi.png" alt="鞋子"/>
+                      <img src="./image/images-yi/xiezi.png" alt="鞋子" />
                     </dt>
                     <dd>鞋子</dd>
                   </dl>
@@ -132,7 +136,7 @@
                       </button>
                     </span>
                   </div>
-                  <div class="right"><button id="chothespress-add" type="button" class="btn btn-info" >添加</button></div>
+                  <div class="right"><button id="chothespress-add" type="button" class="btn btn-info">添加</button></div>
                 </div>
                 <table class="table table-striped table-bordered">
                   <thead>
@@ -169,20 +173,63 @@
             </div>
           </div>
           <footer id="footer">衣橱应用</footer>
-		    </div>
-    	</div>
-    </div>  
+        </div>
+      </div>
+    </div>
   </div>
   <!-- Modal -->
   <div class="modal fade" id="chothespressModal" tabindex="-1" role="dialog" aria-labelledby="modalTitle">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+              aria-hidden="true">&times;</span></button>
           <h4 class="modal-title" id="modalTitle">衣物配置</h4>
         </div>
         <div class="modal-body">
-          ...
+          <form class="form-inline">
+            <div class="wear-table-bottom">
+              <div class="form-group">
+                <label for="type" class="title">分类</label>
+                <input type="text" class="form-control" id="type" placeholder="分类">
+              </div>
+
+              <div class="form-group wear-table-left">
+                <label for="No" class="title">编号</label>
+                <input type="text" class="form-control" id="No" placeholder="编号">
+              </div>
+            </div>
+
+            <div class="wear-table-bottom">
+              <div class="form-group">
+                <label for="brand" class="title">品牌</label>
+                <input type="text" class="form-control" id="brand" placeholder="品牌">
+              </div>
+              <div class="form-group wear-table-left">
+                <label for="name" class="title">名称</label>
+                <input type="text" class="form-control" id="name" placeholder="名称">
+              </div>
+            </div>
+
+            <div class="wear-table-bottom">
+              <div class="form-group">
+                <label for="size" class="title">尺码</label>
+                <input type="text" class="form-control" id="size" placeholder="尺码">
+              </div>
+              <div class="form-group wear-table-left">
+                <label for="clothe" class="title">衣料</label>
+                <input type="text" class="form-control" id="clothe" placeholder="衣料">
+              </div>
+            </div>
+
+            <div class="wear-table-bottom">
+              <div class="form-group">
+                <label for="price" class="title">价格</label>
+                <input type="text" class="form-control" id="price" placeholder="价格">
+              </div>
+            </div>
+
+          </form>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
@@ -196,6 +243,7 @@
 <script src="./js/common.js"></script>
 <!-- 当前页所需JS -->
 <script src="./js/chothespress.js"></script>
+
 <script>
   $().ready(function () {
     clothCommon.init();
@@ -204,4 +252,5 @@
     chothespress.init();
   });
 </script>
+
 </html>
